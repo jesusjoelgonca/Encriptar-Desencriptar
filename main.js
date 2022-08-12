@@ -113,6 +113,7 @@ function Copiar() {
     const cb = navigator.clipboard;
     const paragraph = document.querySelector('#mensaje');
     cb.writeText(paragraph.innerText).then(() => alert('Texto copiado!'));
+    texto_normal = [];
 
 }
 
