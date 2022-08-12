@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/alura.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="item-1">
+            <img src="img/alura.png" alt="">
+        </div>
+        <div class="item-2">
+            <textarea name="texto" id="texto" cols="30" rows="25" placeholder="Ingrese texto aqui" autofocus></textarea>
+            <div class="aviso">
+                <img src="img/exclamacion.png" alt="exclamacion"> <span class="aviso-texto">Solo letras minúsculas y sin
+                    acentos</span>
+            </div>
+
+            <div class="botones">
+                <button class="encriptar" type="submit" id="encriptar" name="encriptar"
+                    onclick="Encriptar()">Encriptar</button>
+                <button class="desencriptar" type="submit" id="desencriptar" name="desencriptar"
+                    onclick="Desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="item-3">
+            <img src="img/Muñeco.png" alt="Muñeco" class="munieco" id="borrar-imagen">
+            <p class="mensaje-1" id="borrar-mensaje">Ningún mensaje fue encontrado</p>
+            <p class="mensaje-2" id="mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button class="btn-copiar" id="btn-copiar" style="display:none; margin-top: 500px;" onclick="Copiar()"
+                type="submit">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <a href="www.linkedin.com/in/jesusjoelgc" target="_blank">Hecho con ❤ Jesús Joel González Castro</a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
