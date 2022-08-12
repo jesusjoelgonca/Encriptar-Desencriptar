@@ -1,7 +1,6 @@
 
 
 let texto = document.getElementById("texto");
-let vocales = ["a", "e", "i", "o", "u"];
 let cifrado = ["ai", "enter", "imes", "ober", "ufat"];
 let cambio = "";
 let texto_normal = [];
